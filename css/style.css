@@ -1,4 +1,22 @@
 * {
     direction: rtl;
-    font-family: 'Shabnam FD', sans-serif;
+    /* font-family: 'Shabnam FD', sans-serif; */
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+body {}
+
+#intro {
+    background-color: #2A363B;
+    border-radius: 50px;
+    margin-top: 10px;
+    -webkit-box-shadow: 10px 10px 45px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 45px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 45px -16px rgba(0, 0, 0, 0.75);
+}
+
+p:first-child {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
