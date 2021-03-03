@@ -13,3 +13,12 @@ function Product() {
     let num2 = document.getElementById("input2").value;
     document.getElementById("exit").innerHTML = num1 * num2;
 }
+
+function user(name = document.getElementById("input3").value) {
+    if (name.length > 1) {
+        alert(name + " " + "hello to my world");
+    } else {
+        alert("please enter your name");
+    }
+
+}
