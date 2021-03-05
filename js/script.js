@@ -16,7 +16,7 @@ function Product() {
 
 function user(name = document.getElementById("input3").value) {
     if (name.length > 1) {
-        alert(name + " " + "hello to my world");
+        alert(name + " " + "welcome");
     } else {
         alert("please enter your name");
     }
