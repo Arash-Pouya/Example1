@@ -1,20 +1,5 @@
 * {
     direction: rtl;
-    /* font-family: 'Shabnam FD', sans-serif; */
-    text-align: center;
-    font-family: 'Brush Script MT', cursive;
-}
-
-#intro {
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    margin-top: 10px;
-    -webkit-box-shadow: 10px 10px 45px -16px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 45px -16px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 45px -16px rgba(0, 0, 0, 0.75);
-}
-
-p:first-child {
-    font-size: 25px;
-    color: rgb(255, 255, 255);
+    font-family: 'Shabnam FD', sans-serif;
+    text-align: right;
 }
