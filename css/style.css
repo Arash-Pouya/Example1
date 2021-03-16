@@ -30,7 +30,13 @@ div.card {
   margin: auto;
   padding: 0px;
 }
-
+.btn-group {
+  position: fixed;
+}
+.btn-group button a {
+  color: red;
+  text-decoration: none;
+}
 /* //////////select box//////////////// */
 
 .sidebar-1 {
