@@ -30,29 +30,17 @@ $(document).ready(function () {
     }
   });
 });
-///////////////////////page scoll//////////////
-$(function () {
-  $("a.page-scroll").bind("click", function (event) {
-    var $anchor = $(this);
-    $("html, body")
-      .stop()
-      .animate(
-        {
-          scrollTop: $($anchor.attr("href")).offset().top,
-        },
-        1500,
-        "easeInOutExpo"
-      );
-    event.preventDefault();
+//////////Tab menu////////////////
+
+$(document).ready(function () {
+  $("ul.tabs li").click(function () {
+    var tab_id = $(this).attr("data-tab");
+
+    $("ul.tabs li").removeClass("current");
+    $(".tab-content").removeClass("current");
+
+    $(this).addClass("current");
+    $("#" + tab_id).addClass("current");
   });
 });
-
-// Highlight the top nav as scrolling occurs
-$("body").scrollspy({
-  target: ".navbar-fixed-top",
-});
-
-// Closes the Responsive Menu on Menu Item Click
-$(".navbar-collapse ul li a").click(function () {
-  $(".navbar-toggle:visible").click();
-});
+//////////Tab menu////////////////
