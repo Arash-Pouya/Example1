@@ -139,6 +139,7 @@ div.card {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  border-radius: 50px;
 }
 @media (max-width: 540px) {
   .sidebar-menu {
