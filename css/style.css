@@ -469,3 +469,14 @@ form {
   }
 }
 /* //////////Footer//////////////// */
+#image {
+  background-image: url(https://dkstatics-public.digikala.com/digikala-products/b17622315a81e4ec3bcfe8923c5da7b839115f1b_1610187708.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80), url(https://dkstatics-public.digikala.com/digikala-products/756521.jpg?x-oss-process=image/resize,h_1600/quality,q_80);
+  background-position: right top, left top;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: 20%;
+}
+.table td,
+tr {
+  text-align: center;
+}
